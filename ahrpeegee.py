@@ -40,9 +40,12 @@ while player_health > 0 and enemy_health > 0:
 	
 	elif choice == 'wristwatch':
 		print "If you're so damn worried about the time, it's "
-		
+	
+	elif choice == 'strike' or choice == 'stats':
+		print "Sorry, but I don't support this feature yet. Come on."
+
 	else:
 		print "Ineffective. I do not understand you."
 
 if player_health is 0:
-    print "You are terrible. You've been killed already."
+	print "You are terrible. You've been killed already."
