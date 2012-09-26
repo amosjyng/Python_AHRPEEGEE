@@ -25,7 +25,7 @@ enemy_health = 10
 
 while enemy_health > 0:
 	print "The mountain lion snarls at you."
-	print "You have a %s and a buckler" (weapon)
+	print "You have a {0} and a buckler".format(weapon)
 	print "What do you do?"
 	print commands
 	choice = raw_input(prompt)
@@ -41,7 +41,7 @@ while enemy_health > 0:
 	if choice == 'wristwatch':
 		print "If you're so damn worried about the time, it's "
 		
-	elif:
+	else:
 		print "Ineffective. I do not understand you."
 
 
