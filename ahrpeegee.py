@@ -23,7 +23,7 @@ commands = ['talk','run','strike','chant','stats','wristwatch']
 player_health = 10
 enemy_health = 10
 
-while enemy_health > 0:
+while player_health > 0 and enemy_health > 0:
 	print "The mountain lion snarls at you."
 	print "You have a {0} and a buckler".format(weapon)
 	print "What do you do?"
@@ -44,4 +44,5 @@ while enemy_health > 0:
 	else:
 		print "Ineffective. I do not understand you."
 
-
+if player_health is 0:
+    print "You are terrible. You've been killed already."
