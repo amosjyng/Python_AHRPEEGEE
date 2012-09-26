@@ -28,17 +28,17 @@ while enemy_health > 0:
 	print "You have a {0} and a buckler".format(weapon)
 	print "What do you do?"
 	print commands
-	choice = raw_input(prompt)
+	choice = raw_input(prompt).strip()
 
 	if choice == 'talk':
 		print "It does not work. The lion strikes you"
 		player_health = 0
 		
-	if choice == 'chant':
+	elif choice == 'chant':
 		print "You vaporized that mountain bitch like it was nothing!"
 		enemy_health = 0
 	
-	if choice == 'wristwatch':
+	elif choice == 'wristwatch':
 		print "If you're so damn worried about the time, it's "
 		
 	else:
