@@ -17,14 +17,6 @@ print "And lastly, where do you run to when all else is lost?"
 home = raw_input(prompt)
 
 
-#print "You wake up at your computer"
-#print "The time is _____. The day is ________"
-#print "Can you feel reality pulling you back in?"
-#
-#
-#
-
-
 #Actions that the player can take
 commands = ['talk','run','strike','chant','stats','wristwatch']
 
@@ -36,8 +28,6 @@ while enemy_health > 0:
 	print "You have a %s and a buckler" (weapon)
 	print "What do you do?"
 	print commands
-#	for i in range(0,len.commands):
-#		print(commands[i])
 	choice = raw_input(prompt)
 
 	if choice == 'talk':
